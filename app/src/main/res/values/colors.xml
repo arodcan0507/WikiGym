@@ -8,4 +8,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="backgroundHomeActivity">#7BCDF9</color>
+    <color name="backgroundCardView">#6A7377</color>
+    <color name="screenExercise">#75E8A6</color>
+    <color name="screenFood">#F968D8</color>
+    <color name="screenIMC">#F5A641</color>
 </resources>

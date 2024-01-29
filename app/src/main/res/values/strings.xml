@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">WikiGym</string>
+    <string name="screen_1">Ejercicios</string>
+    <string name="screen_2">Comidas</string>
+    <string name="screen_3">IMC</string>
+    <string name="author">Alejandro R. Cañete</string>
 </resources>
