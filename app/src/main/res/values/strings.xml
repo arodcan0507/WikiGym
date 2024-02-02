@@ -4,4 +4,12 @@
     <string name="screen_2">Comidas</string>
     <string name="screen_3">IMC</string>
     <string name="author">Alejandro R. Cañete</string>
+    <string name="pect">Pectorales</string>
+    <string name="bic">Biceps</string>
+    <string name="tri">Triceps</string>
+    <string name="abs">Abdominales</string>
+    <string name="esp">Espalda</string>
+    <string name="hom">Hombros</string>
+    <string name="cua">Cuadriceps</string>
+    <string name="gem">Gemelos</string>
 </resources>

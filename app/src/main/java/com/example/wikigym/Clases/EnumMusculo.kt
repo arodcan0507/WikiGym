@@ -8,8 +8,5 @@ enum class EnumMusculo {
     Espalda,
     Hombros,
     Cuadriceps,
-    Aductores,
-    Isquios,
-    Gemelos,
-    Glúteos
+    Gemelos
 }

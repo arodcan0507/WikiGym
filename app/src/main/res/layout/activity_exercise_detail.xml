@@ -26,7 +26,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_margin="15dp"
-        android:background="@color/black" />
+        android:background="@color/white" />
     <TextView
         android:id="@+id/NSeriesNRepsExercise"
         android:layout_width="match_parent"
@@ -64,6 +64,7 @@
         android:scrollbars="vertical"
         android:text="a\na\na\na\na\na\na\na\ns\sns\nss\ns\na\ns\whw"/>
     <TextView
+        android:id="@+id/grupoExercise"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Músculo trabajado: Pectorales"

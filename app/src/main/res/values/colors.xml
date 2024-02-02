@@ -9,7 +9,9 @@
     <color name="white">#FFFFFFFF</color>
     <color name="backgroundHomeActivity">#7BCDF9</color>
     <color name="backgroundCardView">#6A7377</color>
-    <color name="screenExercise">#75E8A6</color>
+    <color name="screenExercise">#90F2FA</color>
     <color name="screenFood">#F968D8</color>
     <color name="screenIMC">#F5A641</color>
+    <color name="chips">#EC6868</color>
+    <color name="selectedChips">#1A54C8</color>
 </resources>
