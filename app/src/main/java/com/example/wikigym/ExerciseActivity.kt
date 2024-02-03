@@ -18,7 +18,6 @@ class ExerciseActivity : AppCompatActivity() {
 
         configureToolbar()
 
-
         val listaEjercicios: MutableList<Ejercicio> = mutableListOf(
             Ejercicio(0,"Press de banca con barra",4,12,"Desengancha la barra y bájala lentamente hasta la parte inferior del pecho. A medida que contraes los pectorales, empuja la carga hacia arriba hasta que los brazos estén casi rectos.",R.drawable.a,EnumMusculo.Pectorales),
             Ejercicio(1,"Apertura con mancuernas",3,12,"Baja lentamente las mancuernas a los lados en un arco con los brazos hasta sentir un estiramiento en los pectorales. No bajes por debajo del nivel de los hombros. Luego vuelve a la posición original, realizando el mismo arco.",R.drawable.b,EnumMusculo.Pectorales),

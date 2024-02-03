@@ -13,9 +13,27 @@
         android:theme="@style/Theme.WikiGym"
         tools:targetApi="31">
         <activity
+            android:name=".SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InitialActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".ExerciseDetailActivity"
             android:exported="false"
-            android:parentActivityName=".ExerciseActivity"/>
+            android:parentActivityName=".ExerciseActivity" />
         <activity
             android:name=".IMCActivity"
             android:exported="false"
@@ -30,13 +48,7 @@
             android:parentActivityName=".HomeActivity" />
         <activity
             android:name=".HomeActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false"></activity>
     </application>
 
 </manifest>

@@ -14,4 +14,5 @@
     <color name="screenIMC">#F5A641</color>
     <color name="chips">#EC6868</color>
     <color name="selectedChips">#1A54C8</color>
+    <color name="buttonInitialView">#3396FF</color>
 </resources>
