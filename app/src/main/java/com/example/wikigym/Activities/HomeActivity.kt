@@ -1,4 +1,4 @@
-package com.example.wikigym
+package com.example.wikigym.Activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -15,22 +15,22 @@ class HomeActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.imgBtnExercise.setOnClickListener {
-            val intent = Intent(this,ExerciseActivity::class.java)
+            val intent = Intent(this, ExerciseActivity::class.java)
             startActivity(intent)
         }
 
         binding.imgBtnGym.setOnClickListener {
-            val intent = Intent(this,GymActivity::class.java)
+            val intent = Intent(this, GymActivity::class.java)
             startActivity(intent)
         }
 
         binding.imgBtnIMC.setOnClickListener {
-            val intent = Intent(this,IMCActivity::class.java)
+            val intent = Intent(this, IMCActivity::class.java)
             startActivity(intent)
         }
 
         binding.btnCerrarSesion.setOnClickListener {
-            val intent = Intent(this,InitialActivity::class.java)
+            val intent = Intent(this, InitialActivity::class.java)
             startActivity(intent)
         }
     }

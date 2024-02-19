@@ -1,4 +1,4 @@
-package com.example.wikigym
+package com.example.wikigym.Activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -22,7 +22,7 @@ class GymDetail2Activity : AppCompatActivity() {
         configureRatinBar()
 
         binding.btnImagenes.setOnClickListener {
-            val intent = Intent(this,ImagesActivity::class.java)
+            val intent = Intent(this, ImagesActivity::class.java)
             startActivity(intent)
         }
     }

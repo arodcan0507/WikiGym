@@ -1,4 +1,4 @@
-package com.example.wikigym
+package com.example.wikigym.Activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.widget.Toast
 import com.example.wikigym.databinding.ActivityImcBinding
 import java.text.DecimalFormat
-import kotlin.math.roundToInt
 
 class IMCActivity : AppCompatActivity() {
     private lateinit var binding: ActivityImcBinding
@@ -45,7 +44,7 @@ class IMCActivity : AppCompatActivity() {
        val result = df.format(imc)
        Toast.makeText(this, imc.toString(), Toast.LENGTH_SHORT).show()
 
-       val intent = Intent(this,IMCResultadoActivity::class.java)
+       val intent = Intent(this, IMCResultadoActivity::class.java)
         intent.putExtra("IMC", result.toString())
         startActivity(intent)
     }

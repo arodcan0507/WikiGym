@@ -1,4 +1,4 @@
-package com.example.wikigym
+package com.example.wikigym.Activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -13,12 +13,12 @@ class InitialActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.butSignUp.setOnClickListener {
-            val intent = Intent(this,SignupActivity::class.java)
+            val intent = Intent(this, SignupActivity::class.java)
             startActivity(intent)
         }
 
         binding.butLogin.setOnClickListener {
-            val intent = Intent(this,LoginActivity::class.java)
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
     }

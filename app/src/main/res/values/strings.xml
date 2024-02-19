@@ -3,6 +3,7 @@
     <string name="screen_1">Ejercicios</string>
     <string name="screen_2">GYM</string>
     <string name="screen_3">IMC</string>
+    <string name="screen_4">Perfil</string>
     <string name="author">Alejandro R. Cañete</string>
     <string name="pect">Pectorales</string>
     <string name="bic">Biceps</string>
@@ -14,4 +15,55 @@
     <string name="gem">Gemelos</string>
     <string name="login">Iniciar Sesión</string>
     <string name="signup">Crear Cuenta</string>
+    <string-array name="gimnasios">
+        <item>Dolphins Gym</item>
+        <item>Gimnasio Fenix</item>
+        <item>Synergym</item>
+        <item>Body Factory</item>
+        <item>Basic-Fit</item>
+        <item>OKEYMAS</item>
+        <item>Natur Fitness</item>
+        <item>On Fitness</item>
+    </string-array>
+    <string name="search">Buscar Gym</string>
+    <string name="question1">¿Estás apuntado ahora?</string>
+    <string name="question2">¿Te está gustando?</string>
+    <string name="question3">¿Has estado apuntado antes?</string>
+    <string name="yes">SI</string>
+    <string name="no">NO</string>
+    <string name="ilike">Me gusta</string>
+    <string name="nolike">No me gusta</string>
+    <string name="detalle">¿Quieres ver los detalles del Gimnasio?</string>
+    <string name="noSelected">Seleccionado: Ninguno</string>
+    <string name="nivel1">Principiante</string>
+    <string name="nivel2">Intermedio</string>
+    <string name="nivel3">Avanzado</string>
+    <string name="ciudadesAEntrenar">Cuidades dónde vas a entrenar</string>
+    <string name="saveCiudades">Guardar</string>
+    <string-array name="cuidades">
+        <item>Cádiz</item>
+        <item>Sevilla</item>
+        <item>Málaga</item>
+        <item>Huelva</item>
+        <item>Madrid</item>
+        <item>Barcelona</item>
+        <item>Logroño</item>
+        <item>Badajoz</item>
+        <item>Valencia</item>
+    </string-array>
+    <string name="altura">Altura: (cm)</string>
+    <string name="peso">Peso: (kg)</string>
+    <string name="calcIMC">Calcular IMC</string>
+    <string name="result">Tu Resultado: </string>
+    <string name="mensaje">Deberías ganar algo de peso</string>
+    <string name="mensaje2">Estás muy bien</string>
+    <string name="mensaje3">Estás bien, pero podrías estás mejor</string>
+    <string name="mensaje4">Deberías hacer algo de deporte</string>
+    <string name="mensaje5">Debes perder algo de peso</string>
+    <string name="mensaje6">Tu salud es lo primero</string>
+    <string name="coincidencia">Ninguna Coincidencia</string>
+    <string name="continua">Continua por aquí</string>
+    <string name="imageActivity">Navega a Imágenes</string>
+    <string name="observa">Ellos siempre te vigilarán cuando estés entrenando</string>
+    <string name="logout">Cerrar Sesión</string>
 </resources>

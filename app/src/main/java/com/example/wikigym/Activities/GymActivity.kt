@@ -1,4 +1,4 @@
-package com.example.wikigym
+package com.example.wikigym.Activities
 
 import android.content.Intent
 import android.content.res.ColorStateList
@@ -10,6 +10,7 @@ import android.widget.MultiAutoCompleteTextView
 import android.widget.Toast
 import androidx.core.content.ContextCompat
 import com.example.wikigym.Clases.Utilidades
+import com.example.wikigym.R
 import com.example.wikigym.databinding.ActivityGymBinding
 
 class GymActivity : AppCompatActivity() {
@@ -40,7 +41,9 @@ class GymActivity : AppCompatActivity() {
             navDetailGym(boolSearchGym)
         }
         binding.butSavePaises.setOnClickListener {
-            Utilidades.animarViewOfInt(binding.butSavePaises,"backgroundColor", ContextCompat.getColor(this,R.color.green),1000)
+            Utilidades.animarViewOfInt(binding.butSavePaises,"backgroundColor", ContextCompat.getColor(this,
+                R.color.green
+            ),1000)
             val message = "Cuidades guardadas con éxito"
             Toast.makeText(this,message, Toast.LENGTH_SHORT).show()
         }
@@ -78,9 +81,13 @@ class GymActivity : AppCompatActivity() {
             it.equals(text, ignoreCase = true)
         }
         if (coincide) {
-            Utilidades.animarViewOfInt(binding.butSearchGym,"backgroundColor", ContextCompat.getColor(this,R.color.green),1000)
+            Utilidades.animarViewOfInt(binding.butSearchGym,"backgroundColor", ContextCompat.getColor(this,
+                R.color.green
+            ),1000)
         } else {
-            Utilidades.animarViewOfInt(binding.butSearchGym,"backgroundColor", ContextCompat.getColor(this,R.color.red),1000)
+            Utilidades.animarViewOfInt(binding.butSearchGym,"backgroundColor", ContextCompat.getColor(this,
+                R.color.red
+            ),1000)
         }
         boolSearchGym = if (coincide) true else false
         nombreGym = if (coincide) text else return
@@ -92,11 +99,15 @@ class GymActivity : AppCompatActivity() {
         val responses: Array<String> = arrayOf("SI","NO")
         var message = ""
         if (click) {
-            Utilidades.animarViewOfInt(binding.tvResponse1,"textColor", ContextCompat.getColor(this,R.color.green),1000)
+            Utilidades.animarViewOfInt(binding.tvResponse1,"textColor", ContextCompat.getColor(this,
+                R.color.green
+            ),1000)
             message = "Ahora estás apuntado"
             binding.tvResponse1.text = responses.first()
         } else {
-            Utilidades.animarViewOfInt(binding.tvResponse1,"textColor", ContextCompat.getColor(this,R.color.red),1000)
+            Utilidades.animarViewOfInt(binding.tvResponse1,"textColor", ContextCompat.getColor(this,
+                R.color.red
+            ),1000)
             message = "Ahora no estás apuntado"
             binding.tvResponse1.text = responses.last()
         }
@@ -114,11 +125,15 @@ class GymActivity : AppCompatActivity() {
     fun clickSwitch(click: Boolean) {
         var message = ""
         if (click) {
-            Utilidades.animarViewOfInt(binding.tvAntes,"textColor", ContextCompat.getColor(this,R.color.green),1000)
+            Utilidades.animarViewOfInt(binding.tvAntes,"textColor", ContextCompat.getColor(this,
+                R.color.green
+            ),1000)
             message = "¡Bienvenido de nuevo!"
             binding.switchAntes.thumbTintList = ColorStateList.valueOf(Color.GREEN)
         } else {
-            Utilidades.animarViewOfInt(binding.tvAntes,"textColor", ContextCompat.getColor(this,R.color.red),1000)
+            Utilidades.animarViewOfInt(binding.tvAntes,"textColor", ContextCompat.getColor(this,
+                R.color.red
+            ),1000)
             message = "Felicidades, ¡Es un gran comienzo!"
             binding.switchAntes.thumbTintList = ColorStateList.valueOf(Color.RED)
         }

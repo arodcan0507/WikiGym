@@ -19,9 +19,10 @@ class ExerciseAdapter(private val mContext: Context,private val listaExercise: M
         val titleExercise = layout.findViewById<TextView>(R.id.titleExercise)
         val seriesxRepsExercise = layout.findViewById<TextView>(R.id.seriesreps)
 
+        val seriesReps = "Series: ${ejercicio.NSeries} | Reps: ${ejercicio.NReps}"
         imgExercise.setImageResource(ejercicio.Imagen)
         titleExercise.text = ejercicio.Nombre
-        seriesxRepsExercise.text = "Series: ${ejercicio.NSeries} | Reps: ${ejercicio.NReps}"
+        seriesxRepsExercise.text = seriesReps
 
         return layout
     }

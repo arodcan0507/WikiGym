@@ -1,7 +1,8 @@
-package com.example.wikigym
+package com.example.wikigym.Activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.wikigym.R
 import com.example.wikigym.databinding.ActivityImcresultadoBinding
 
 class IMCResultadoActivity : AppCompatActivity() {

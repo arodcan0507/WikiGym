@@ -1,13 +1,14 @@
-package com.example.wikigym
+package com.example.wikigym.Activities
 
 import android.content.Intent
-import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.webkit.WebViewClient
 import android.widget.MediaController
 import android.widget.Toast
 import androidx.appcompat.widget.SearchView
+import com.example.wikigym.Clases.Utilidades
+import com.example.wikigym.R
 import com.example.wikigym.databinding.ActivityGymDetailBinding
 
 class GymDetailActivity : AppCompatActivity() {
@@ -32,6 +33,7 @@ class GymDetailActivity : AppCompatActivity() {
             val intent = Intent(this, GymDetail2Activity::class.java)
             startActivity(intent)
         }
+        Utilidades.animarViewOfDouble(binding.titleGym, "translationY",(binding.titleGym.translationY)+100f,1000)
     }
     fun configureSearchView() {
         binding.searchGym.setOnQueryTextListener(object : SearchView.OnQueryTextListener {

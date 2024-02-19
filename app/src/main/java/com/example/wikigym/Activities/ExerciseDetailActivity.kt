@@ -1,4 +1,4 @@
-package com.example.wikigym
+package com.example.wikigym.Activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

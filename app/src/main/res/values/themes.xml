@@ -20,4 +20,7 @@
         <item name="chipStrokeColor">@color/selectedChips</item>
         <item name="chipStrokeWidth">2dp</item>
     </style>
+    <style name="trim">
+        <item name="cornerSize">20%</item>
+    </style>
 </resources>

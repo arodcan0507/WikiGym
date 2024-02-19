@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity"
+    tools:context=".Activities.LoginActivity"
     android:background="@drawable/background">
     <TextView
         android:id="@+id/title"
@@ -64,4 +64,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginBottom="70dp"
         android:backgroundTint="@color/buttonInitialView"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:visibility="invisible"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -15,4 +15,12 @@
     <color name="chips">#EC6868</color>
     <color name="selectedChips">#1A54C8</color>
     <color name="buttonInitialView">#3396FF</color>
+    <color name="red">#FD0202</color>
+    <color name="green">#04FA0E</color>
+    <color name="lightBlue">#3364FF</color>
+    <color name="lightGreen">#33FF55</color>
+    <color name="lightYellow">#E6FF33</color>
+    <color name="lightOrange">#DB7A12</color>
+    <color name="lightRed">#FF3333</color>
+    <color name="lightPurple">#7133FF</color>
 </resources>

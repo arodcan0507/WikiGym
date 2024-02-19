@@ -10,3 +10,13 @@ enum class EnumMusculo {
     Cuadriceps,
     Gemelos
 }
+enum class EnumSexo {
+    Masculino,
+    Femenino
+}
+
+enum class EnumGrado {
+    Principiante,
+    Intermedio,
+    Avanzado
+}
